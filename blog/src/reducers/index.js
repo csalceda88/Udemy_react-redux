@@ -1,7 +1,5 @@
-import React from 'react';
+import { combineReducers } from "redux";
 
-const App = () => {
-    return <div className="ui container">App</div>;
-};
-
-export default App;
+export default combineReducers({
+    ff: () => 'llgreg'
+});
